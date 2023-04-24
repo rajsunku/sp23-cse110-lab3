@@ -1,0 +1,56 @@
+/* This file will be used as the style for index.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+/* everything has bruno ace font */
+* {
+    font-family: 'Bruno Ace', cursive;
+ }
+
+ .basictext {
+    color: rgb(100, 100, 100);
+    text-decoration: rgba(0, 0, 0, 100) underline;
+    text-align: center;
+ }
+
+ h1 {
+    position: relative;
+    top: 5px;
+    left: 3mm;
+    border-style: dashed;
+    border-color: hsl(120, 100%, 50%);
+    border-width: 2pt;
+    border-radius: 3vw;
+    margin: 1vh 1lh 1vh 1lh;
+    padding: 0px 0px 0px 0px;
+ }
+
+ a {
+    display: inline-block;
+    border-style: outset;
+ }
+
+ #first {
+    margin-top: 15px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+ }
+
+ img.diagram {
+    display: block;
+    position: sticky;
+    height: auto;
+    width: 50vw;
+    min-width: 100px;
+    max-width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+ }
+
+ h3, p {
+    color:hsla(0, 10%, 50%, 30%)
+ }
