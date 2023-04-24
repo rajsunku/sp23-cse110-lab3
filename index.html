@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+        body {
+            background-color: #0FF;
+        }
+    </style>
     <title>Meeting minutes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "languages" content="HTML">
     <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1096194995641401396/1096195024355590154/meeting.png" type="image/x-icon" />
+    <link rel="stylesheet" href="meetingstyle.css">
   </head>
   <body>
-      <header>Meeting Minutes Tracker</header>
+    <header style="color:red">Meeting Minutes Tracker</header>
       <main>
           <hr>
           <div> CSE 110 <span>Lab 2</span> </div>
@@ -22,7 +28,7 @@
           <hr>
           <h1>Meetings</h1>
           <section>
-              <h2>First Meeting</h2>
+            <h2 id="first">First Meeting</h2>
               <h3>brainstorming</h3>
               <h3>4/13/2023</h3>
               <h3>Participants:</h3>
@@ -39,11 +45,11 @@
                   <li>Do third task</li>
               </ol>
               <h3>Notes:</h3>
-              <p>Things left from last meeting: <br> We didn't have a previous meeting so we are starting new.</p>
+              <p class="basictext">Things left from last meeting: <br> We didn't have a previous meeting so we are starting new.</p>
               <p>New business:<br> Talk about initial stuff.</p>
               <p>Misc:<br> Nothing yet.</p>
               <h3>Diagram:</h3>
-              <img src="diagram.png" alt="Diagram">
+              <img class="diagram" src="diagram.png" alt="Diagram">
               <h3>Video Recording:</h3>
               <video width="400" controls>
                   <source src="video.mp4" type="video/mp4">
