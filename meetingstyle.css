@@ -54,3 +54,52 @@
  h3, p {
     color:hsla(0, 10%, 50%, 30%)
  }
+
+ fieldset {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+ }
+
+ @media (max-width: 500px) {
+   body {
+      color: #FF0000;
+   }
+  }
+
+nav {
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: auto;
+   column-gap: 5px;
+}
+
+button:hover {
+   background-color: antiquewhite;
+}
+
+button:active {
+   background-color:blanchedalmond;
+   color: gray;
+}
+
+a[href="https://slack.com/"] {
+   color: red;
+}
+
+select option {
+   color: green;
+}
+
+input ~ label {
+   color: yellow;
+}
+
+ul > li {
+   color:blueviolet;
+}
+
+h1 + form {
+   color:white;
+}
